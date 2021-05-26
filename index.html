@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Randomizer</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="left-side">
+                        <div class="nav-link-wrapper active-nav-link">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a class="nav-link" href="about.html">About</a>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="brand">
+                            <div>Randomizer</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class = "container">
+            <div class="shell">
+                <div class="numContainer">
+                    <div class="ranNum">
+                        <button id="getNumber" onclick = "randomNumber();">Generate Random Number</button>
+                        <p id="number">Number here</p>
+                    </div>
+                </div>
+                <div class="coinContainer">
+                    <div class="ranCoin">
+                        <button id="getCoin" onclick = "randomCoin();">Flip Coin</button>
+                        <p id="coin">Coin Flip here</p>
+                    </div>
+                </div>
+                <div class="colorContainer">
+                    <div class="ranColor">
+                        <button id="getColor" onclick = "randomColor();">Generate Random Color</button>
+                        <p id="color">Color here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

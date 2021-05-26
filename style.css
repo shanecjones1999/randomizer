@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.brand > div {
+    text-transform: uppercase;
+    color: lightcoral;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+
+/* Main */
+
+.shell {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    height: 130px;
+}
+
+.numContainer, .coinContainer, .colorContainer {
+    padding: 20px;
+    border: black solid;
+    width: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    background-color: lightcoral;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+}
+
+#number, #coin, #color {
+    text-align: center;
+}
+
+button:focus {
+    outline: none;
+    align-items: center;
+}
+
+button:hover {
+    background-color: white;
+    color:lightcoral
+}
+
+.color {
+    text-align: center;
+}
+
+.about-container {
+    margin: 20px 50px 20px 50px;
+}
+
+code {
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 1.3em;
+    line-height: 1.6;
+    max-width: 100%;
+}
